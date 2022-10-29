@@ -1,0 +1,34 @@
+.menucontainer {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171717;
+  border-bottom: 0.1px solid white;
+  justify-content: center;
+}
+
+.list {
+  display: inline;
+  float: left;
+}
+
+.list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+// .list a:hover {
+//   background-color: rgb(151, 70, 70);
+// }
+
+.create {
+  //border: 2px solid white;
+  box-shadow: 2px 2px 14px 2px #dd5353;
+  background-color: #dd5353;
+  border-radius: 20px;
+}

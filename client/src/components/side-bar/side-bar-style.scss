@@ -1,0 +1,26 @@
+.sidebarcontainer {
+  list-style-type: none;
+  height: 500vh;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171717;
+  border-right: 0.1px solid white;
+}
+
+.sidebarlist {
+  display: flex;
+}
+
+.sidebarlist a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidebarlist a:hover {
+  background-color: #111;
+}
